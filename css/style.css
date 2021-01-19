@@ -5,3 +5,20 @@
     box-sizing: border-box;
 }
 /**********************/
+
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+.container{
+    width: 90%;
+    height: 200vh;
+    margin: 0 auto;
+}
+
+header{
+    background-color: pink;
+    height: 20vh;
+    width: 100%;
+}
