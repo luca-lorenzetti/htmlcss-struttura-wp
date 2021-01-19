@@ -22,3 +22,17 @@ header{
     height: 20vh;
     width: 100%;
 }
+/* Style sections */
+section{
+    margin-top: 30px;
+}
+#jumbotron{
+    background-color: goldenrod;
+    height: 80vh;
+}
+
+#floating-section{
+    background-color: dodgerblue;
+    height: 80vh;
+}
+/* ******************* */
